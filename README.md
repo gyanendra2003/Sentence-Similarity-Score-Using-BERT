@@ -2,7 +2,8 @@
 # Calculate the similarity between two sentences
 
 # Live Working Interface
-![Result Page.png](https://github.com/ayushrag1/Sentence-Similarity-Score-Using-NLP/assets/90321099/1a7c2aa0-a734-424e-b426-815ccba35ad0)
+![Result Page](https://github.com/gyanendra2003/Sentence-Similarity-Score-Using-BERT/assets/109502452/8f079bf6-2897-4a8d-aa1c-318c5228978c)
+
 
 # Deployment
 We fail to deploy the flak app on any free paltform because of memeory  limit issue that's why we cannot also upload ``` My_model.pkl``` model file.
@@ -21,8 +22,8 @@ Before you proceed with the setup, make sure you have the following installed on
 Clone the repository containing your Flask application code:
 
 ```
-git clone <https://github.com/ayushrag1/Sentence-Similarity-Score-Using-NLP.git>
-cd <Sentence-Similarity-Score-Using-NLP>
+git clone https://github.com/ayushrag1/Sentence-Similarity-Score-Using-NLP.git
+cd Sentence-Similarity-Score-Using-NLP
 ```
 
 ## Step 2: Create a Virtual Environment
@@ -97,65 +98,3 @@ deactivate
 If you encounter any issues during the setup process, feel free to open an issue in this repository.
 
 Happy Flask development!
-
-
-
-
-# Dockerized Application
-
-This repository contains a Dockerfile and necessary configuration to build and run the Dockerized version of the "Your Application Name" application.
-
-## Prerequisites
-
-Before you proceed with the Docker setup, make sure you have the following installed on your machine:
-
-- Docker: [Install Docker](https://docs.docker.com/get-docker/)
-
-## Building the Docker Image
-
-To build the Docker image for the application, run the following command from the root of this repository:
-
-```
-docker build -t flask_app .
-```
-
-## Running the Docker Container
-
-Once the Docker image is built, you can run the application in a Docker container using the following command:
-
-```
-docker run -p 5000:5000 -d flask_app
-```
-
-This command will start the application inside a Docker container, and it will be accessible at `http://localhost:5050` in your web browser.
-
-## Stopping the Docker Container
-
-To stop the running Docker container, you can use the following command:
-
-```
-docker stop <IMAGE NAME>
-```
-GET THE IMAGE NAME BY
-```
-docker PS
-```
-
-## Removing the Docker Image
-
-If you want to remove the Docker image from your system, use the following command:
-
-```
-docker rmi flask_app:latest
-```
-
-## Customization
-
-
-If your application requires specific environment variables or configuration options, you can modify the `Dockerfile` or use Docker Compose to manage multiple services.
-
-## Troubleshooting
-
-If you encounter any issues or have questions related to this Dockerized setup, please don't hesitate to open an issue in this repository.
-
-Happy Dockerizing!
